@@ -52,16 +52,16 @@ export default {
     localhost: {
       timeout: 16000000,
     },
-    matic: {
-      url: process.env.MATIC_URL,
-      accounts: [process.env.ITEM_MANAGER],
-      // blockGasLimit: 20000000,
-      // gasPrice: 1000000000,
-      maxFeePerGas: BigNumber.from("80").mul(1e9),
-      maxPriorityFeePerGas: BigNumber.from("50").mul(1e9),
-      gasLimit: 2000000,
-      timeout: 90000,
-    },
+    // matic: {
+    //   url: process.env.MATIC_URL,
+    //   accounts: [process.env.ITEM_MANAGER],
+    //   // blockGasLimit: 20000000,
+    //   // gasPrice: 1000000000,
+    //   maxFeePerGas: BigNumber.from("80").mul(1e9),
+    //   maxPriorityFeePerGas: BigNumber.from("50").mul(1e9),
+    //   gasLimit: 2000000,
+    //   timeout: 90000,
+    // },
     // mumbai: {
     //   url: 'https://rpc-mumbai.matic.today',
     //   accounts: [process.env.SECRET],

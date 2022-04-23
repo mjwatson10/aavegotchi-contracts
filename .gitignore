@@ -1,0 +1,14 @@
+node_modules
+.secret
+.secret2
+cache
+bin
+.env
+artifacts
+coverage.json
+coverage
+scripts/dep.js
+scripts/portals.js
+hardhat.config.js
+typechain/
+flat
